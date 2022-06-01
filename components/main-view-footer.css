@@ -1,0 +1,14 @@
+.mvf-container {
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  width: 100%;
+  grid-template-areas: 
+  ". . mvf-power-btn";
+}
+
+.mvf-power-btn{
+  grid-area: mvf-power-btn;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
